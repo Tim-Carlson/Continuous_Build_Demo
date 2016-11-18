@@ -37,8 +37,8 @@ public class JPEGChartRenderer {
                 lineChartDataset,PlotOrientation.VERTICAL,
                 true,true,false);
 
-        int width = 640; /* Width of the image */
-        int height = 480; /* Height of the image */
+        int width = 800; /* Width of the image */
+        int height = 600; /* Height of the image */
         File lineChart = new File( mFileName );
         try {
             ChartUtilities.saveChartAsJPEG(lineChart ,lineChartObject, width ,height);
