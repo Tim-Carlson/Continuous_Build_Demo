@@ -22,6 +22,6 @@ public class CsvReaderTest {
         Map<String, List<Integer>> data = reader.getData();
 
         assertNotNull(data);
-        assertEquals(4, data.entrySet().size());
+        assertEquals(5, data.entrySet().size());
     }
 }
